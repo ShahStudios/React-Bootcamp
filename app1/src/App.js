@@ -1,17 +1,17 @@
-import React from 'react'
+import React from "react";
+import TodoItem from "./components/TodoItem";
 
-import MainContent from './components/MainContent'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import '../src/styles.css'
 
 function App() {
     return (
-        <>
-            <Navbar />
-            <MainContent />
-            <Footer />  
-        </>
-    )
+        <div className="todo-list">
+            <TodoItem />
+            <TodoItem />
+            <TodoItem />
+            <TodoItem />
+        </div>
+    );
 }
 
-export default App
+export default App;
