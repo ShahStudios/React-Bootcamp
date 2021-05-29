@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Header() {
+function Navbar() {
     return (
         <>
-        <h1>Header</h1>
+            <h1>Navbar</h1>
         </>
     )
 }
 
-export default Header
+export default Navbar 

@@ -3,7 +3,7 @@ import React from 'react'
 function MainContent() {
     return (
         <>
-        <h2>Main Content</h2>
+            <h1>Main Content</h1>
         </>
     )
 }
