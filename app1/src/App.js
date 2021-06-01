@@ -1,5 +1,7 @@
-import React from "react";
-import TodoItem from "./components/TodoItem";
+import React from 'react'
+
+import TodoItem from '../src/components/TodoItem'
+import todosData from '../src/todosData'
 
 import '../src/styles.css'
 
@@ -11,7 +13,7 @@ function App() {
             <TodoItem />
             <TodoItem />
         </div>
-    );
+    )
 }
 
-export default App;
+export default App
