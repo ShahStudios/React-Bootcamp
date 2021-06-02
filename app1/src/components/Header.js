@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-function Header(props) {
-    return (
-        <header>
-            <p>Welcome, {props.username}!</p>
-        </header>
-    )
+class Header extends Component {
+    render() {
+        return (
+            <header>
+            <p>Welcome, {this.props.username}!</p>
+            </header>
+        )
+    }
 }
 
 export default Header
