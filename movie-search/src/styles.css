@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 html {
     font-size: 10px;
 }
@@ -9,8 +11,9 @@ html {
 body { 
     margin: 0;
     padding: 0;
-    background-color: rgba(224, 244, 244);
+    background-color: #FFFAFA;
     color: #333;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -33,6 +36,11 @@ small {
     text-align: center;
 }
 
+.sub-title {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
 .form {
     display: grid;
 }
@@ -41,6 +49,7 @@ small {
     font-size: 1.2rem;
     margin-bottom: 0.2rem;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .input {
@@ -50,6 +59,10 @@ small {
     border-radius: 20px;
     border: 1px solid #ddd;
     margin-bottom: 0.5rem;
+}
+
+.input:focus {
+    outline: none;
 }
 
 .button {

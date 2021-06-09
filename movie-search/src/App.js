@@ -8,6 +8,7 @@ class App extends Component {
         return (
             <div className='container'>
                 <h1 className="title">Movie Search</h1>
+                <h3 class="sub-title">Millions of movies. Explore now.</h3>
                 <SearchMovies />
             </div>
         )
