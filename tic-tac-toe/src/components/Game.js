@@ -20,17 +20,11 @@ function Game() {
         setXIsNext(!xIsNext);
     }
 
-    const jumpTo = () => {
-
-    }
-
-    const renderMoves = () => {
-        <button onClick={() => {
-            setBoard(Array(9).fill(null))
-        }}>
-            Start Game
+    const renderMoves = () => (
+        <button onClick={() => setBoard(Array(9).fill(null))}>
+            Start New Game
         </button>
-    }
+    )
 
     return (
         <>
@@ -40,6 +34,7 @@ function Game() {
                 <p>
                     {winner ? 'Winner: ' + winner : 'Next Player: ' + (xIsNext ? 'X' : 'O')}
                 </p>
+                {renderMoves()}
             </div>
         </>
     )
